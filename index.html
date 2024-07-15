@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM DIA! o espantalho foi derrotado e já ta 2x0.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs\cafezinho.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="ask">
+        <h1 id="pergunt2">-... --- -- / .-. . ... - --- / -.. . / -.. --- -- .. -. --. --- -.-.-- / -... --- .- / -. --- .. - . ---... -..</h1>
+    </div>
+    <div class="copyDiv">
+        <button id="copyBtn" class="copyBtn">Copiar</button>
+    </div>
+    <div class="tradutor">
+        <a href="https://morsecode.world/international/translator.html"><button id="tradButton">Traduzir</button></a>
+    </div>
+   <script>
+        var copyBtn = document.getElementById('copyBtn');
+        var link = document.getElementById('pergunt2');
+
+        copyBtn.onclick = function() {
+            navigator.clipboard.writeText(link.innerText);
+        }
+   </script>
+</body>
+</html>

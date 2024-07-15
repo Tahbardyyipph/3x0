@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("imgs\\cafe.png");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+
+.ask {
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+
+}
+
+h1{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    border: solid;
+    border-color: black;
+    padding-top: 6px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    height: 20px;
+}
+
+.copyDiv {
+    padding: 5px;
+}
+
+.copyBtn {
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}
+
+#tradButton {
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+}
